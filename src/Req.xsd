@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://kelvinBroekman/request">
+  <xs:annotation>
+      <xs:appinfo>XSD request schema</xs:appinfo>
+      <xs:documentation xml:lang="nl">Er wordt 1 request element "requestInput" verstuurd met 5 getallen</xs:documentation>
+  </xs:annotation>
+  <xs:element name="requestInput">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element type="xs:integer" name="number1"/>
+      <xs:element type="xs:integer" name="number2"/>
+      <xs:element type="xs:integer" name="number3"/>
+      <xs:element type="xs:integer" name="number4"/>
+      <xs:element type="xs:integer" name="number5"/>
+    </xs:sequence>
+  </xs:complexType>
+  </xs:element>
+</xs:schema>

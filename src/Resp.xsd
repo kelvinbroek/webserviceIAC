@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://kelvinBroekman/response">
+  <xs:annotation>
+    <xs:appinfo>XSD response schema</xs:appinfo>
+    <xs:documentation>Als response op de request worden de getallen uit de request in de messages package uitgelezen.
+      Deze maakt een berekening met de binnengekomen getallen en stuurt dit element met de waarde terug naar de sender.
+      Dit element is de uiteindelijke uitkomst van de formule die wordt gedaan.
+      </xs:documentation>
+  </xs:annotation>
+  <xs:element name="responseOutput">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element type="xs:double" name="uitkomst"/>
+    </xs:sequence>
+  </xs:complexType>
+  </xs:element>
+</xs:schema>
