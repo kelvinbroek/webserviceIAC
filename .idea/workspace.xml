@@ -2,61 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3608f17-b910-4ab9-bacb-178eb1911137" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/Req.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/Resp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/example/HelloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/applicatiefout/ApplicationError.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/applicatiefout/ObjectFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/applicatiefout/ValidationHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/applicatiefout/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/Req.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/Resp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/example/HelloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/applicatiefout/ApplicationError.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/applicatiefout/ObjectFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/applicatiefout/ValidationHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/applicatiefout/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Req.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Resp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/example/HelloWorld.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/kelvinbroekman/applicatiefout/ApplicationError.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/kelvinbroekman/applicatiefout/ApplicationError.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/kelvinbroekman/applicatiefout/ObjectFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/kelvinbroekman/applicatiefout/ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/kelvinbroekman/applicatiefout/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/kelvinbroekman/applicatiefout/package-info.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/kelvinbroekman/applicatiefout/ValidationHandler.java" afterPath="$PROJECT_DIR$/src/kelvinbroekman/fault/ValidationHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/messages/BerekenStandaardDeviatie.class" afterPath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/messages/BerekenStandaardDeviatie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/messages/Berekening.class" afterPath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/messages/Berekening.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/messages/Deviatie.class" afterPath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/messages/Deviatie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/messages/Inputfault.class" afterPath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/messages/Inputfault.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/request/RequestInput.class" afterPath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/kelvinbroekman/request/RequestInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/messages/BerekenStandaardDeviatie.class" afterPath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/messages/BerekenStandaardDeviatie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/messages/Berekening.class" afterPath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/messages/Berekening.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/messages/Deviatie.class" afterPath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/messages/Deviatie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/messages/Inputfault.class" afterPath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/messages/Inputfault.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/request/RequestInput.class" afterPath="$PROJECT_DIR$/out/production/WebserviceDeviatie/kelvinbroekman/request/RequestInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kelvinbroekman/messages/BerekenStandaardDeviatie.class" afterPath="$PROJECT_DIR$/src/kelvinbroekman/messages/BerekenStandaardDeviatie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kelvinbroekman/messages/Inputfault.class" afterPath="$PROJECT_DIR$/src/kelvinbroekman/messages/Inputfault.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kelvinbroekman/request/RequestInput.class" afterPath="$PROJECT_DIR$/src/kelvinbroekman/request/RequestInput.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testplan.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testrapport.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebserviceDeviatie.iml" afterPath="$PROJECT_DIR$/WebserviceDeviatie.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/ApplicatieFout.xsd" afterPath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/ApplicatieFout.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/Req.xsd" afterPath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/Req.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/schema.wsdl" afterPath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/classes/schema.wsdl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/sun-jaxws.xml" afterPath="$PROJECT_DIR$/out/artifacts/WebserviceDeviatie_war_exploded/WEB-INF/sun-jaxws.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/ApplicatieFout.xsd" afterPath="$PROJECT_DIR$/out/production/WebserviceDeviatie/ApplicatieFout.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/Req.xsd" afterPath="$PROJECT_DIR$/out/production/WebserviceDeviatie/Req.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebserviceDeviatie/schema.wsdl" afterPath="$PROJECT_DIR$/out/production/WebserviceDeviatie/schema.wsdl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ApplicatieFout.xsd" afterPath="$PROJECT_DIR$/src/ApplicatieFout.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Req.xsd" afterPath="$PROJECT_DIR$/src/Req.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kelvinbroekman/messages/BerekenStandaardDeviatie.java" afterPath="$PROJECT_DIR$/src/kelvinbroekman/messages/BerekenStandaardDeviatie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kelvinbroekman/messages/Berekening.java" afterPath="$PROJECT_DIR$/src/kelvinbroekman/messages/Berekening.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kelvinbroekman/messages/Deviatie.java" afterPath="$PROJECT_DIR$/src/kelvinbroekman/messages/Deviatie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kelvinbroekman/messages/Inputfault.java" afterPath="$PROJECT_DIR$/src/kelvinbroekman/messages/Inputfault.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kelvinbroekman/request/RequestInput.java" afterPath="$PROJECT_DIR$/src/kelvinbroekman/request/RequestInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/schema.wsdl" afterPath="$PROJECT_DIR$/src/schema.wsdl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,9 +102,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,94 +116,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kelvinbroekman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebserviceDeviatie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kelvinbroekman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,11 +143,13 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kelvin\IdeaProjects\WebserviceDeviatie\SoapTestMessages" />
+      <recent name="C:\Users\Kelvin\IdeaProjects\WebserviceDeviatie" />
       <recent name="C:\Users\Kelvin\IdeaProjects\WebserviceDeviatie\src" />
       <recent name="C:\Users\Kelvin\IdeaProjects\WebserviceDeviatie\web\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeviatieTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.33">
     <configuration default="false" name="DeviatieTest.calculateDeviatie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -859,8 +723,17 @@
       <workItem from="1489150033262" duration="240000" />
       <workItem from="1489150343739" duration="23218000" />
       <workItem from="1489257489434" duration="11133000" />
-      <workItem from="1489340243560" duration="1029000" />
+      <workItem from="1489340243560" duration="1551000" />
+      <workItem from="1489341848574" duration="739000" />
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1489341303010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489341303010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -887,7 +760,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40973000" />
+    <option name="totallyTimeSpent" value="42234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -913,9 +786,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25241676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25617614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -968,7 +841,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -979,41 +853,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Req.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kelvinbroekman/messages/BerekenStandaardDeviatie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kelvinbroekman/messages/BerekenStandaardDeviatie.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kelvinbroekman/response/ElementsType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kelvinbroekman/response/ObjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,9 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1212,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,12 +1065,12 @@
         <state relative-caret-position="154">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
           <folding>
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#458#459#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1256,8 +1090,8 @@
         <state relative-caret-position="396">
           <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="false" />
+            <element signature="e#379#380#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1274,6 +1108,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoapTestMessages/soap1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoapTestMessages/soap2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoapTestMessages/soap3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoapTestMessages/soap4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
