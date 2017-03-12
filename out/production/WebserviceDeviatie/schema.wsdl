@@ -4,14 +4,14 @@
                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                   xmlns:req="http://kelvinBroekman/request"
                   xmlns:rsp="http://kelvinBroekman/response"
-                  xmlns:flt="http://kelvinBroekman/applicatiefout"
+                  xmlns:flt="http://kelvinBroekman/fault"
                   xmlns:srv="http://kelvinBroekman/messages"
                   targetNamespace="http://kelvinBroekman/messages">
 <wsdl:types>
    <xsd:schema>
        <xsd:import namespace="http://kelvinBroekman/request" schemaLocation="Req.xsd" />
        <xsd:import namespace="http://kelvinBroekman/response" schemaLocation="Resp.xsd" />
-       <xsd:import namespace="http://kelvinBroekman/applicatiefout" schemaLocation="ApplicatieFout.xsd" />
+       <xsd:import namespace="http://kelvinBroekman/fault" schemaLocation="ApplicatieFout.xsd" />
    </xsd:schema>
 </wsdl:types>
 <wsdl:message name="request">
@@ -21,7 +21,7 @@
    <wsdl:part name="response" element="rsp:responseOutput"/>
 </wsdl:message>
     <wsdl:message name="inputfault">
-        <wsdl:part name="fault" element="flt:ApplicationError"/>
+        <wsdl:part name="fault" element="flt:fault"/>
     </wsdl:message>
 <wsdl:portType name="BerekenStandaardDeviatie">
    <wsdl:operation name="CalculateDeviatie">

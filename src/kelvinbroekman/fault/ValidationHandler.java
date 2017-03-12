@@ -1,4 +1,4 @@
-package kelvinbroekman.applicatiefout;
+package kelvinbroekman.fault;
 
 import com.sun.xml.ws.developer.ValidationErrorHandler;
 import org.xml.sax.SAXException;

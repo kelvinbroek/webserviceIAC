@@ -2,7 +2,7 @@
 package kelvinbroekman.messages;
 
 import javax.xml.ws.WebFault;
-import kelvinbroekman.applicatiefout.ApplicationError;
+import kelvinbroekman.fault.Fault;
 
 
 /**
@@ -11,7 +11,7 @@ import kelvinbroekman.applicatiefout.ApplicationError;
  * Generated source version: 2.2
  * 
  */
-@WebFault(name = "ApplicationError", targetNamespace = "http://kelvinBroekman/applicatiefout")
+@WebFault(name = "fault", targetNamespace = "http://kelvinBroekman/fault")
 public class Inputfault
     extends Exception
 {
@@ -20,14 +20,14 @@ public class Inputfault
      * Java type that goes as soapenv:Fault detail element.
      * 
      */
-    private ApplicationError faultInfo;
+    private Fault faultInfo;
 
     /**
      * 
      * @param faultInfo
      * @param message
      */
-    public Inputfault(String message, ApplicationError faultInfo) {
+    public Inputfault(String message, Fault faultInfo) {
         super(message);
         this.faultInfo = faultInfo;
     }
@@ -38,7 +38,7 @@ public class Inputfault
      * @param cause
      * @param message
      */
-    public Inputfault(String message, ApplicationError faultInfo, Throwable cause) {
+    public Inputfault(String message, Fault faultInfo, Throwable cause) {
         super(message, cause);
         this.faultInfo = faultInfo;
     }
@@ -46,9 +46,9 @@ public class Inputfault
     /**
      * 
      * @return
-     *     returns fault bean: kelvinbroekman.applicatiefout.ApplicationError
+     *     returns fault bean: kelvinbroekman.fault.Fault
      */
-    public ApplicationError getFaultInfo() {
+    public Fault getFaultInfo() {
         return faultInfo;
     }
 

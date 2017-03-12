@@ -8,11 +8,11 @@
   <xs:element name="requestInput">
   <xs:complexType>
     <xs:sequence>
-      <xs:element type="xs:integer" name="number1"/>
-      <xs:element type="xs:integer" name="number2"/>
-      <xs:element type="xs:integer" name="number3"/>
-      <xs:element type="xs:integer" name="number4"/>
-      <xs:element type="xs:integer" name="number5"/>
+      <xs:element type="xs:int" name="number1"/>
+      <xs:element type="xs:int" name="number2"/>
+      <xs:element type="xs:int" name="number3"/>
+      <xs:element type="xs:int" name="number4"/>
+      <xs:element type="xs:int" name="number5"/>
     </xs:sequence>
   </xs:complexType>
   </xs:element>

@@ -20,7 +20,7 @@ import kelvinbroekman.response.ResponseOutput;
 @WebService(name = "BerekenStandaardDeviatie", targetNamespace = "http://kelvinBroekman/messages")
 @SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)
 @XmlSeeAlso({
-    kelvinbroekman.applicatiefout.ObjectFactory.class,
+    kelvinbroekman.fault.ObjectFactory.class,
     kelvinbroekman.request.ObjectFactory.class,
     kelvinbroekman.response.ObjectFactory.class
 })

@@ -2,10 +2,9 @@ package kelvinbroekman.messages;
 
 import com.sun.tools.ws.wsdl.document.Fault;
 import com.sun.xml.ws.developer.SchemaValidation;
-import kelvinbroekman.applicatiefout.ApplicationError;
+import kelvinbroekman.fault.ValidationHandler;
 import kelvinbroekman.request.RequestInput;
 import kelvinbroekman.response.ObjectFactory;
-import kelvinbroekman.applicatiefout.*;
 import kelvinbroekman.response.ResponseOutput;
 
 import javax.jws.WebService;
@@ -14,7 +13,7 @@ import javax.jws.WebService;
  * Created by Kelvin on 10-3-2017.
  */
 @WebService(endpointInterface = "kelvinbroekman.messages.BerekenStandaardDeviatie")
-@SchemaValidation(handler = kelvinbroekman.applicatiefout.ValidationHandler.class)
+@SchemaValidation(handler = ValidationHandler.class)
 public class Deviatie implements BerekenStandaardDeviatie {
 
     @Override
@@ -24,20 +23,23 @@ public class Deviatie implements BerekenStandaardDeviatie {
         ResponseOutput response = factory.createResponseOutput();
 
         try {
+            if(request.getNumber1() <= 0 || request.getNumber2() <= 0 ||
+                    request.getNumber3() <= 0 || request.getNumber4() <= 0 || request.getNumber5() <= 0) {
+                throw new RuntimeException();
+            }
+
             double waarde = Berekening.Bereken(request);
             response.setUitkomst(waarde);
         }
         catch(RuntimeException e) {
-            System.out.println(e.getMessage());
 
-            kelvinbroekman.applicatiefout.ObjectFactory exception = new kelvinbroekman.applicatiefout.ObjectFactory();
+            kelvinbroekman.fault.ObjectFactory fac = new kelvinbroekman.fault.ObjectFactory();
+            kelvinbroekman.fault.Fault x = fac.createFault();
 
-            ApplicationError error = exception.createApplicationError();
-            error.setErrorCode((short)1);
-            error.setMessage("Kan de standaarddeviatie niet berekenen");
+            x.setErrorCode((short)1);
+            x.setMessage("Kan de standaarddeviatie niet berekenen, voer alleen getallen in groter dan 0");
 
-            Inputfault f = new Inputfault("Er ging iets mis", error);
-            System.out.println("ERROR///////////////////////////////");
+            Inputfault f = new Inputfault("Er ging iets mis", x);
             throw f;
         }
         return response;
